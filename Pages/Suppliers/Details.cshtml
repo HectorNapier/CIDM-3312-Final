@@ -20,9 +20,12 @@
         <ul>
             @foreach (var productSupplier in Model.Supplier.ProductSuppliers)
             {
+                <form method="post">
+                    <input type="hidden" asp-for="ProductIdToDelete" value="@productSupplier.Product.ProductID"/>
                 <li>
-                    @productSupplier.Product.ProductName
+                    @productSupplier.Product.ProductName <input type="submit" Value="Drop" class="btn btn-danger btn-sm my-1" asp-page-handler="DeleteProduct" asp-route-id="@Model.Supplier.SupplierID"/>
                 </li>
+                </form>
             }
         </ul>
     </dl>

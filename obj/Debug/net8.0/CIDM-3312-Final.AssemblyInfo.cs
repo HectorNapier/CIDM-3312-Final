@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CIDM-3312-Final")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dbf6f0c72a8a8f40f493f0ba5af1c74a5704c5c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d6c280745953b5a269a24ed4bb5093cad7280ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("CIDM-3312-Final")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CIDM-3312-Final")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
