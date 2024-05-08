@@ -20,6 +20,9 @@
                 Products
             </th>
             <th>
+                Part Number
+            </th>
+              <th>
                 Actions
             </th>
         </tr>
@@ -38,9 +41,19 @@
                     }
                     @if (!item.ProductSuppliers.Any())
                     {
-                        <p>Not Enrolled</p>
+                        <p>No Products</p>
                     }
-                </td>
+                    </td>
+                    <td>
+                @foreach (var supplier in item.ProductSuppliers)
+                    {
+                        <p>@supplier.Product.PartNumber</p>
+                    }
+                    @if (!item.ProductSuppliers.Any())
+                    {
+                        <p>No Part Number</p>
+                    }
+                    </td>
                 <td>
                     <a asp-page="./Edit" asp-route-id="@item.SupplierID">Edit</a> |
                     <a asp-page="./Details" asp-route-id="@item.SupplierID">Details</a> |

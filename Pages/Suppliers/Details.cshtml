@@ -17,6 +17,14 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Supplier.SupplierName)
         </dd>
+        <ul>
+            @foreach (var productSupplier in Model.Supplier.ProductSuppliers)
+            {
+                <li>
+                    @productSupplier.Product.ProductName
+                </li>
+            }
+        </ul>
     </dl>
 </div>
 <div>

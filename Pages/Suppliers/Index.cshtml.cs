@@ -23,8 +23,8 @@ namespace CIDM_3312_Final.Pages.Suppliers
         public async Task OnGetAsync()
         {
             Supplier = await _context.Suppliers
-            .Include(s => s.ProductSuppliers) // Include ProductSuppliers if needed
-                .ThenInclude(ps => ps.Product) // Then include Product
+            .Include(s => s.ProductSuppliers) // Include ProductSuppliers 
+                .ThenInclude(ps => ps.Product) 
             .ToListAsync();
 
         }

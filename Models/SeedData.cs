@@ -18,16 +18,23 @@ namespace ProductSuppliers.Models
                     return;   // Data already seeded
                 }
 
-                // Add sample products
+                // Add products
                 var products = new List<Product> {
-                    new Product { ProductName = "NaCoL2", PartNumber = "1524" },
+                    new Product { ProductName = "Sodium chloride", PartNumber = "1524" },
+                    new Product { ProductName = "Hydrogen peroxide", PartNumber = "1725" },
+                    new Product { ProductName = "Ethanol", PartNumber = "10534" },
+                    new Product { ProductName = "Sulfuric acid", PartNumber = "1845" },
+
                 };
                 context.Products.AddRange(products);
                 context.SaveChanges();
 
-                // Add sample suppliers
+                // Add suppliers
                 var suppliers = new List<Supplier> {
                     new Supplier { SupplierName = "West Coast Chemical" },
+                    new Supplier { SupplierName = "IPC Brothers" },
+                    new Supplier { SupplierName = "Baytown Blending" },
+                    new Supplier { SupplierName = "Chevron Phillips" },
                 };
                 context.Suppliers.AddRange(suppliers);
                 context.SaveChanges();
@@ -35,6 +42,9 @@ namespace ProductSuppliers.Models
                 // Add product suppliers
                 var productSuppliers = new List<ProductSupplier> {
                     new ProductSupplier { SupplierID = suppliers[0].SupplierID, ProductID = products[0].ProductID },
+                    new ProductSupplier { SupplierID = suppliers[1].SupplierID, ProductID = products[1].ProductID },
+                    new ProductSupplier { SupplierID = suppliers[2].SupplierID, ProductID = products[2].ProductID },
+                    new ProductSupplier { SupplierID = suppliers[3].SupplierID, ProductID = products[3].ProductID },
                 };
                 context.ProductSuppliers.AddRange(productSuppliers);
                 context.SaveChanges();

@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="..\buildMultiTargeting\CIDM-3312-Final.props" />
+  <Import Project="../buildMultiTargeting/CIDM-3312-Final.props" />
 </Project>
