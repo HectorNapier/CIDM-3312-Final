@@ -11,7 +11,7 @@ namespace ProductSuppliers.Models
         [Display(Name = "Part Number")]
         [Required]
         public string PartNumber {get; set;} = string.Empty;
-        public List<ProductSupplier>? ProductSupliers {get; set;} = default!; // Navigation Property. Product can have many suppliers
+        public List<ProductSupplier>? ProductSuppliers {get; set;} = default!; // Navigation Property. Product can have many suppliers
 
     }
 }

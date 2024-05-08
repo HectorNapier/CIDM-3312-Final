@@ -1,0 +1,52 @@
+@page
+@model CIDM_3312_Final.Pages.Suppliers.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Supplier[0].SupplierName)
+            </th>
+            <th>
+                Products
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Supplier)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierName)
+                </td>
+                <td>
+                    @foreach (var supplier in item.ProductSuppliers)
+                    {
+                        <p>@supplier.Product.ProductName</p>
+                    }
+                    @if (!item.ProductSuppliers.Any())
+                    {
+                        <p>Not Enrolled</p>
+                    }
+                </td>
+                <td>
+                    <a asp-page="./Edit" asp-route-id="@item.SupplierID">Edit</a> |
+                    <a asp-page="./Details" asp-route-id="@item.SupplierID">Details</a> |
+                    <a asp-page="./Delete" asp-route-id="@item.SupplierID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -6,7 +6,7 @@ namespace ProductSuppliers.Models
     {
         public int SupplierID {get; set;} // Primary Key
         [Required]
-        public string Material {get; set;} = string.Empty;
+        public string SupplierName {get; set;} = string.Empty;
         public List<ProductSupplier> ProductSuppliers {get; set;} = default!; // Navigation Property. Supplier can have MANY products
     }
 

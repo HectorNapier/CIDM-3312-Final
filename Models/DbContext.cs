@@ -2,19 +2,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ProductSuppliers.Models
 {
-    public class Context : DbContext
+    public class RazorPagesContext : DbContext
     {
-        public Context(DbContextOptions<Context> options) : base(options)
+        public RazorPagesContext(DbContextOptions<RazorPagesContext> options) : base(options)
         {
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<ProductSupplier>().HasKey(s => new {s.SupplierID, s.ProductID});
+            modelBuilder.Entity<ProductSupplier>().HasKey(ps => new { ps.SupplierID, ps.ProductID });
         }
 
-        public DbSet<Supplier> Supplier {get; set;} = default!;
-        public DbSet<Product> Product {get; set;} = default!; 
-        public DbSet<ProductSupplier> ProductSupplier {get; set;} = default!;
+        public DbSet<Supplier> Suppliers { get; set; } 
+        public DbSet<Product> Products { get; set; } 
+        public DbSet<ProductSupplier> ProductSuppliers { get; set; } 
     }
 }
+
