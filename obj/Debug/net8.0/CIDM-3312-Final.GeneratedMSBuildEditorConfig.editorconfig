@@ -17,59 +17,59 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CIDM_3312_Final
 build_property.RootNamespace = CIDM_3312_Final
-build_property.ProjectDir = /Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/
+build_property.ProjectDir = C:\Users\Hector\Dropbox\School\2024\CIDM-3312-Final\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final
+build_property.MSBuildProjectDirectory = C:\Users\Hector\Dropbox\School\2024\CIDM-3312-Final
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0RlbGV0ZS5jc2h0bWw=
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0RldGFpbHMuY3NodG1s
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0VkaXQuY3NodG1s
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcGxpZXJzL0luZGV4LmNzaHRtbA==
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-euvlqq5s6e
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k0hfbplukh

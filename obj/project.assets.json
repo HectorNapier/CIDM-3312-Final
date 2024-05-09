@@ -8155,19 +8155,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/yarkobeatz/.nuget/packages/": {}
+    "C:\\Users\\Hector\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/CIDM-3312-Final.csproj",
+      "projectUniqueName": "C:\\Users\\Hector\\Dropbox\\School\\2024\\CIDM-3312-Final\\CIDM-3312-Final.csproj",
       "projectName": "CIDM-3312-Final",
-      "projectPath": "/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/CIDM-3312-Final.csproj",
-      "packagesPath": "/Users/yarkobeatz/.nuget/packages/",
-      "outputPath": "/Users/yarkobeatz/Library/CloudStorage/Dropbox/School/2024/CIDM-3312-Final/obj/",
+      "projectPath": "C:\\Users\\Hector\\Dropbox\\School\\2024\\CIDM-3312-Final\\CIDM-3312-Final.csproj",
+      "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Hector\\Dropbox\\School\\2024\\CIDM-3312-Final\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/yarkobeatz/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Hector\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -8235,7 +8235,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

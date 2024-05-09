@@ -26,7 +26,7 @@ namespace CIDM_3312_Final.Pages.Suppliers
         [BindProperty]
         public Supplier Supplier { get; set; } = default!;
 
-        // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
+        
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)

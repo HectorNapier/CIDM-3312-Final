@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using ProductSuppliers.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace CIDM_3312_Final.Pages.Suppliers
 {
@@ -27,6 +28,14 @@ namespace CIDM_3312_Final.Pages.Suppliers
         [BindProperty]
         public int ProductIdToDelete {get; set;}
 
+        [BindProperty]
+        
+        [Display(Name = "Product")]
+        public int ProductIdToAdd {get; set;}
+        public List<Product> AllProducts {get; set;} = default!;
+        public SelectList ProductsDropDown {get; set;} = default!;
+
+
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
@@ -35,6 +44,9 @@ namespace CIDM_3312_Final.Pages.Suppliers
             }
 
             var supplier = await _context.Suppliers.Include(s => s.ProductSuppliers).ThenInclude(sc => sc.Product).FirstOrDefaultAsync(m => m.SupplierID == id);
+            AllProducts = await _context.Products.ToListAsync();
+            ProductsDropDown = new SelectList(AllProducts.Select(p => new { p.ProductID, DisplayText = $"{p.ProductName} - {p.PartNumber}" }), "ProductID", "DisplayText");
+
             if (supplier == null)
             {
                 return NotFound();
@@ -61,11 +73,11 @@ namespace CIDM_3312_Final.Pages.Suppliers
                 return NotFound();
             }
 
-            ProductSupplier ProductToDrop = _context.ProductSuppliers.Find(ProductIdToDelete, id.Value)!;
+            ProductSupplier? productToDrop = _context.ProductSuppliers.FirstOrDefault(sc => sc.ProductID == ProductIdToDelete && sc.SupplierID == id);
 
-            if (ProductToDrop != null)
+            if (productToDrop != null)
             {
-                _context.Remove(ProductToDrop);
+                _context.Remove(productToDrop);
                 _context.SaveChanges();
             }
             else
@@ -75,6 +87,42 @@ namespace CIDM_3312_Final.Pages.Suppliers
 
             return RedirectToPage(new {id = id});
         }
+
+        
+        //on post for Add Product below here
+            public async Task<IActionResult> OnPostAsync(int? id)
+            {
+                _logger.LogWarning($"OnPost: SupplierId {id}, ADD Product {ProductIdToAdd}");
+                if (ProductIdToAdd == 0)
+                {
+                    ModelState.AddModelError("ProductIdToAdd", "This field is a required field.");
+                    return Page();
+                }
+                if (id == null)
+                {
+                    return NotFound();
+                }
+
+                var product = await _context.Products.FirstOrDefaultAsync(m => m.ProductID == ProductIdToAdd);            
+                
+                if (product == null)
+                {
+                    return NotFound();
+                }
+
+                if (!_context.ProductSuppliers.Any(sc => sc.ProductID == ProductIdToAdd && sc.SupplierID == id.Value))
+                {
+                    var productSupplierToAdd = new ProductSupplier { SupplierID = id.Value, ProductID = ProductIdToAdd };
+                    _context.Add(productSupplierToAdd);
+                    _context.SaveChanges();
+                }
+                else
+                {
+                    _logger.LogWarning("Product already in the Supplier's inventory");
+                }
+
+                return RedirectToPage(new { id = id });
+            }
 
 
     }
