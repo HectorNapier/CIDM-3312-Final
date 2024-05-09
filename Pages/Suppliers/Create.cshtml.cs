@@ -31,10 +31,10 @@ namespace CIDM_3312_Final.Pages.Suppliers
         
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
+            // if (!ModelState.IsValid)
+            // {
+            //     return Page();
+            // }
 
             _logger.LogWarning("On Post Called");
 

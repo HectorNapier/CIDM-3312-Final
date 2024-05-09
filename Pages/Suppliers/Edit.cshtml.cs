@@ -42,10 +42,10 @@ namespace CIDM_3312_Final.Pages.Suppliers
         // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
-            {
-                return Page();
-            }
+            // if (!ModelState.IsValid)
+            // {
+            //     return Page();
+            // }
 
             _context.Attach(Supplier).State = EntityState.Modified;
 
