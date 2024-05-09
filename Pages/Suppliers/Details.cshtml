@@ -18,6 +18,7 @@
             @Html.DisplayFor(model => model.Supplier.SupplierName)
         </dd>
         <ul>
+            
             @foreach (var productSupplier in Model.Supplier.ProductSuppliers)
             {
                 <form method="post">

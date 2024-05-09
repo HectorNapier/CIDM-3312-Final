@@ -29,7 +29,7 @@ namespace CIDM_3312_Final.Pages.Suppliers
         public int ProductIdToDelete {get; set;}
 
         [BindProperty]
-        
+        [Required]
         [Display(Name = "Product")]
         public int ProductIdToAdd {get; set;}
         public List<Product> AllProducts {get; set;} = default!;
