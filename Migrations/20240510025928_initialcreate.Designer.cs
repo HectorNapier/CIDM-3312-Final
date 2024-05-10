@@ -10,8 +10,8 @@ using ProductSuppliers.Models;
 namespace CIDM_3312_Final.Migrations
 {
     [DbContext(typeof(RazorPagesContext))]
-    [Migration("20240508165732_IniticalCreate")]
-    partial class IniticalCreate
+    [Migration("20240510025928_initialcreate")]
+    partial class initialcreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

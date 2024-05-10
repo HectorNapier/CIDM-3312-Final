@@ -5,7 +5,7 @@
 namespace CIDM_3312_Final.Migrations
 {
     /// <inheritdoc />
-    public partial class IniticalCreate : Migration
+    public partial class initialcreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
