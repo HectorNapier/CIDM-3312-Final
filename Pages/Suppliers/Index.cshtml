@@ -32,8 +32,17 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.SupplierName)
+                @{
+                    // Alternate sort order
+                    var firstSort = "first_asc";
+                    if (Model.CurrentSort == "first_asc")
+                    {
+                        firstSort = "first_desc";
+                    }
+                }
+                    <a asp-page="./Index" asp-route-CurrentSort="@firstSort">@Html.DisplayFor(modelItem => item.SupplierName)</a>
                 </td>
+
                 <td>
                     @foreach (var supplier in item.ProductSuppliers)
                     {
