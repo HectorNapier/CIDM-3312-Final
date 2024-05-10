@@ -20,7 +20,7 @@ namespace CIDM_3312_Final.Pages.Suppliers
         }
 
         [BindProperty]
-        public Supplier Supplier { get; set; } = default!;
+        public Supplier Supplier { get; set; } = default!;   
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -28,18 +28,16 @@ namespace CIDM_3312_Final.Pages.Suppliers
             {
                 return NotFound();
             }
-
+               
             var supplier =  await _context.Suppliers.FirstOrDefaultAsync(m => m.SupplierID == id);
             if (supplier == null)
             {
-                return NotFound();
+                return NotFound();     
             }
             Supplier = supplier;
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
             // if (!ModelState.IsValid)
