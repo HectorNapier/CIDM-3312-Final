@@ -17,59 +17,59 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CIDM_3312_Final
 build_property.RootNamespace = CIDM_3312_Final
-build_property.ProjectDir = c:\Users\Hector\Dropbox\School\2024\CIDM-3312-Final\
+build_property.ProjectDir = C:\Users\Hector\Dropbox\School\2024\CIDM-3312-Final\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Hector\Dropbox\School\2024\CIDM-3312-Final
+build_property.MSBuildProjectDirectory = C:\Users\Hector\Dropbox\School\2024\CIDM-3312-Final
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Error.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Index.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Privacy.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Create.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Delete.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Details.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Edit.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Index.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Suppliers/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcGxpZXJzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewImports.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewStart.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_Layout.cshtml]
+[C:/Users/Hector/Dropbox/School/2024/CIDM-3312-Final/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-k0hfbplukh
